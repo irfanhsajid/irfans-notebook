@@ -28,7 +28,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
-    - navigation.indexes
+    - navigation.expand
     - navigation.top
     - toc.follow
     - search.suggest
@@ -72,20 +72,16 @@ use_directory_urls: true
 nav:
   - Home: index.md
   - Getting Started:
-      - getting-started/index.md
       - Introduction: getting-started/notes/intro.md
   - Frontend Development:
-      - frontend-development/index.md
       - React: frontend-development/react/index.md
       - Next.js: frontend-development/nextjs/index.md
   - Databases:
-      - databases/index.md
       - Overview: databases/database/index.md
       - MongoDB: databases/database/mongodb.md
       - PostgreSQL: databases/database/postgresql.md
       - MySQL: databases/database/mysql.md
   - DevOps:
-      - devops/index.md
       - Docker: devops/docker/index.md
 
 # Extra
