@@ -1,16 +1,2 @@
 /* Custom CSS for accordion navigation */
-/* Ensure sections are collapsible and start collapsed */
-.md-nav__item--nested .md-nav__link {
-  cursor: pointer;
-}
-
-/* Style for collapsed sections */
-.md-nav__item--nested:not(.md-nav__item--active) .md-nav {
-  display: none;
-}
-
-/* Show nested nav when section is active/expanded */
-.md-nav__item--nested.md-nav__item--active .md-nav,
-.md-nav__item--nested:has(.md-nav__link--active) .md-nav {
-  display: block;
-}
+/* Material theme handles accordion natively - this file is for future customizations */
