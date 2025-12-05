@@ -75,19 +75,18 @@ use_directory_urls: true
 nav:
   - Home: index.md
   - Notes:
-      - Here:
-          - Getting Started:
-              - Introduction: getting-started/notes/intro.md
-          - Frontend Development:
-              - React: frontend-development/react/index.md
-              - Next.js: frontend-development/nextjs/index.md
-          - Databases:
-              - Overview: databases/database/index.md
-              - MongoDB: databases/database/mongodb.md
-              - PostgreSQL: databases/database/postgresql.md
-              - MySQL: databases/database/mysql.md
-          - DevOps:
-              - Docker: devops/docker/index.md
+      - Getting Started:
+          - Introduction: getting-started/notes/intro.md
+      - Frontend Development:
+          - React: frontend-development/react/index.md
+          - Next.js: frontend-development/nextjs/index.md
+      - Databases:
+          - Overview: databases/database/index.md
+          - MongoDB: databases/database/mongodb.md
+          - PostgreSQL: databases/database/postgresql.md
+          - MySQL: databases/database/mysql.md
+      - DevOps:
+          - Docker: devops/docker/index.md
 
 # Extra
 extra:
