@@ -1,5 +1,5 @@
 site_name: "Irfan's Notebook"
-site_description: "Personal knowledge base covering programming, web development, databases, and more"
+site_description: "Learning Book - Learn, practice, code, and document programming topics."
 site_author: "Irfan"
 # Hiding repository info from navbar
 # repo_url: https://github.com/irfanhsajid/irfans-notebook
@@ -12,30 +12,34 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: white
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: white
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - content.tabs.link
+    - navigation.path
+    - navigation.indexes
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
-    - navigation.sections
     - navigation.top
-    - toc.follow
-    - search.suggest
+    - navigation.sections
+    - navigation.footer
     - search.highlight
     - search.share
-    - content.code.copy
-    - content.code.annotate
-    - content.tabs.link
+    - search.suggest
   font:
     text: Roboto
     code: Roboto Mono
@@ -61,8 +65,13 @@ markdown_extensions:
 
 # Plugins
 plugins:
-  - search
-  - tags
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      links: 
+      links_attr_map:
+        target: _blank
+      links_noopener: true
+      enabled: true
 
 # Use directory URLs (prettier URLs)
 use_directory_urls: true
@@ -70,24 +79,26 @@ use_directory_urls: true
 # Navigation Structure
 nav:
   - Home: index.md
-  - Getting Started:
-      - Introduction: getting-started/notes/intro.md
-  - Frontend Development:
-      - React: frontend-development/react/index.md
-      - Next.js: frontend-development/nextjs/index.md
-  - Databases:
-      - Overview: databases/database/index.md
-      - MongoDB: databases/database/mongodb.md
-      - PostgreSQL: databases/database/postgresql.md
-      - MySQL: databases/database/mysql.md
-  - DevOps:
-      - Docker: devops/docker/index.md
+  - Notes:
+      - Here:
+          - Getting Started:
+              - Introduction: getting-started/notes/intro.md
+          - Frontend Development:
+              - React: frontend-development/react/index.md
+              - Next.js: frontend-development/nextjs/index.md
+          - Databases:
+              - Overview: databases/database/index.md
+              - MongoDB: databases/database/mongodb.md
+              - PostgreSQL: databases/database/postgresql.md
+              - MySQL: databases/database/mysql.md
+          - DevOps:
+              - Docker: devops/docker/index.md
 
 # Extra
 extra:
   generator: false
-  css:
-    - assets/css/custom.css
+extra_css:
+  - assets/css/custom.css
 
 # Copyright
 copyright: Copyright &copy; 2025 Irfan
