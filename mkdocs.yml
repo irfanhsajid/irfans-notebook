@@ -94,7 +94,9 @@ nav:
           - Overview: devops/index.md
           - Docker: devops/docker/index.md
       - Here: notes/here/index.md
-
+      - Interview Preparation:
+          - Overview: interview-preparation/index.md
+          - Full-Stack: interview-preparation/full-stack.md
 # Extra
 extra:
   generator: false
@@ -102,4 +104,4 @@ extra_css:
   - assets/css/custom.css
 
 # Copyright
-copyright: Copyright &copy; 2025 Irfan H Sajid
+copyright: Copyright &copy; 2026 Irfan H Sajid
