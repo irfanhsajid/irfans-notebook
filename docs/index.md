@@ -25,19 +25,19 @@ This notebook covers essential topics for full-stack development:
 
 ### Frontend
 
-- [React Guide](frontend-development/react/) - Components, hooks, and React fundamentals
-- [Next.js Guide](frontend-development/nextjs/) - App Router, data fetching, and deployment
+- [React Guide](frontend-development/react.md) - Components, hooks, and React fundamentals
+- [Next.js Guide](frontend-development/nextjs.md) - App Router, data fetching, and deployment
 
 ### Databases
 
-- [Database Overview](databases/database/) - Choosing and connecting to databases
-- [MongoDB](databases/database/mongodb/) - NoSQL operations and Mongoose
-- [PostgreSQL](databases/database/postgresql/) - Advanced SQL and JSON support
-- [MySQL](databases/database/mysql/) - Relational database essentials
+- [Database Overview](databases/index.md) - Choosing and connecting to databases
+- [MongoDB](databases/mongodb.md) - NoSQL operations and Mongoose
+- [PostgreSQL](databases/postgresql.md) - Advanced SQL and JSON support
+- [MySQL](databases/mysql.md) - Relational database essentials
 
 ### DevOps
 
-- [Docker](devops/docker/) - Containers, images, and Docker Compose
+- [Docker](devops/docker/index.md) - Containers, images, and Docker Compose
 
 ## Getting Started
 

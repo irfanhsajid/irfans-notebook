@@ -21,7 +21,7 @@ The right sidebar shows the table of contents for the current page, making it ea
 ## Next Steps
 
 - Read the [Introduction](notes/intro.md) to understand how to use this documentation
-- Start with [React](../frontend-development/react/index.md) for frontend development
-- Explore [Databases](../databases/database/index.md) to learn about data storage
+- Start with [React](../frontend-development/react.md) for frontend development
+- Explore [Databases](../databases/index.md) to learn about data storage
 - Check out [Docker](../devops/docker/index.md) for containerization
 

@@ -77,6 +77,7 @@ nav:
   - Notes:
       - Getting Started:
           - Introduction: getting-started/index.md
+          - How to Use: getting-started/notes/intro.md
       - Frontend Development:
           - Overview: frontend-development/index.md
           - React: frontend-development/react.md
@@ -90,7 +91,9 @@ nav:
           - SQLite: databases/sqlite.md
 
       - DevOps:
+          - Overview: devops/index.md
           - Docker: devops/docker/index.md
+      - Here: notes/here/index.md
 
 # Extra
 extra:

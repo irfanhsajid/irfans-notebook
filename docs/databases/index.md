@@ -257,4 +257,4 @@ MONGODB_URL=mongodb://localhost:27017/mydb
 
 ## Docker Setup
 
-See the [Docker section](../../devops/docker/index.md) for containerized database setup.
+See the [Docker section](../devops/docker/index.md) for containerized database setup.

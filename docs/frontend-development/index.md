@@ -14,7 +14,7 @@ React is a JavaScript library for building user interfaces. Learn about:
 - Event handling and forms
 - Best practices
 
-[View React Guide →](react/index.md)
+[View React Guide →](react.md)
 
 ### Next.js
 
@@ -26,7 +26,7 @@ Next.js is a React framework that provides server-side rendering, static generat
 - Image optimization
 - Deployment
 
-[View Next.js Guide →](nextjs/index.md)
+[View Next.js Guide →](nextjs.md)
 
 ## Getting Started
 

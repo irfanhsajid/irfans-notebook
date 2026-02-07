@@ -56,8 +56,8 @@ Found an error or have a suggestion? This documentation is [open source on GitHu
 
 Ready to dive in? Choose a topic from the left sidebar:
 
-- Start with [React](../../frontend-development/react/index.md) for frontend development
+- Start with [React](../../frontend-development/react.md) for frontend development
 - Explore [Docker](../../devops/docker/index.md) for containerization
-- Check out the [Database Overview](../../databases/database/index.md) to choose the right database
+- Check out the [Database Overview](../../databases/index.md) to choose the right database
 
 Happy coding! 🚀

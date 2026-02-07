@@ -14,7 +14,7 @@ SQLite works like this:
 
 `App → Database File (.db)`
 
-![Traditional Database vs SQlite](../../assets/images/database/traditional-vs-sqlite.png)
+![Traditional Database vs SQlite](../assets/images/database/traditional-vs-sqlite.png)
 <b>No server. No setup. No username/password.</b>
 
 ## Key characteristics of SQLite
